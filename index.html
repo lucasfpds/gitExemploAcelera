@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Minha Página</title>
+</head>
+<body>
+    <div>
+        <h1>
+            Lucas
+        </h1>
+        <h2 class="rolagem-para-esquerda"><b>Lucas</b></h2>
+    </div>
+</body>
+<script>
+    var meunome = document.getElementsByClassName('rolagem-para-esquerda')[0]
+
+    meunome.style.fontSize = '80px'
+    
+    meunome.style.backgroundColor = 'brown'
+
+    var meuHtml = document.getElementsByTagName('html')[0].style.backgroundColor = 'black'
+
+    console.log('html: ', meuHtml)
+
+    document.getElementsByTagName('h1')[0].style.color = 'white'
+</script>
+</html>
